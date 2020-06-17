@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "BrokerHoods",
+    "slug": "BrokerHoods",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app is able to attach car from your photo library",
+        "NSCameraUsageDescription": "This app uses the camera to make a photo of your car",
+        "NSLocalizedDescription": "Permiso para localizar Imagen"
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA_ROLL",
+        "LOCATION",
+        "NOTIFICATIONS"
+      ]
+    },
+    "sdkVersion": "37.0.0",
+    "description": "Entorno de pruebas"
+  }
+}
